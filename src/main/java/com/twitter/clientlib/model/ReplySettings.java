@@ -39,6 +39,8 @@ import com.google.gson.stream.JsonWriter;
 @JsonAdapter(ReplySettings.Adapter.class)
 public enum ReplySettings {
   
+  VERIFIED("verified"),
+  
   EVERYONE("everyone"),
   
   MENTIONEDUSERS("mentionedUsers"),
